@@ -1,8 +1,5 @@
 
-/*body */
-body{
-    background-color :blue lighten-3;
-}
+
 
 /* nav bar et 1er container*/
 .logo {
@@ -11,6 +8,10 @@ body{
     width: 50px;
     height: 50px;
 }
+.header{
+  background-color :blue lighten-3;
+}
+  
 .header-img{
     width: 250px;
     margin-top: 100px;
@@ -20,16 +21,16 @@ body{
     
 }
 
+
 h2 {
 
     display:flex;
     justify-content: end;
 }
 
+
 /* =========================
-
 FEATURE SECTION
-
 ===========================*/
 
 .feature-content {
@@ -53,4 +54,12 @@ align-self: center;
     margin-bottom: 50px;
 }
 
-
+/* =========================
+WIN SECTION
+===========================*/
+.win-content{
+    justify-content: space-between;
+}
+.win-content__left img{
+    width: 250px;
+}
