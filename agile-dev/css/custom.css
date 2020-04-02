@@ -1,4 +1,10 @@
 
+/*body */
+body{
+    background-color :blue lighten-3;
+}
+=======
+
 h2 {
 
     display:flex;
@@ -31,4 +37,5 @@ align-self: center;
 .features-content__right--1{
     margin-bottom: 50px;
 }
+
 
