@@ -1,7 +1,42 @@
 
 
 
+
 h2, p {
 
     color: black;
 }
+
+h2 {
+
+    display:flex;
+    justify-content: end;
+}
+/* =========================
+
+FEATURE SECTION
+
+===========================*/
+
+.feature-content {
+	display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  
+}
+.feature-left, .feature-right
+{
+align-self: center;
+}
+.feature-center img {
+	display: block;
+    width: 200px;
+    margin-top: 30px;
+}
+
+
+.features-content__right--1{
+    margin-bottom: 50px;
+}
+
+ 
