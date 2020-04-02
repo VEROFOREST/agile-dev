@@ -2,22 +2,53 @@
 
 
 /* nav bar et 1er container*/
+nav{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
 .logo {
     margin-top: 15px;
     margin-left: 25px;
     width: 50px;
     height: 50px;
 }
-
-  
+ 
 .header-img{
     width: 250px;
     margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left:150px;
 }
 .header-text {
    margin-top: 50px;
+   margin-bottom: 50px;
+   text-align: center;
     
 }
+#btngoogle{
+  
+    width: 150px;
+    margin-right: 50px;
+}
+#btnmac{
+    
+    width: 150px;
+    margin-right: 50px;
+
+}
+
+#google{
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    }
+#mac{
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 
 
 h2 {
