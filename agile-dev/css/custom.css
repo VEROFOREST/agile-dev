@@ -1,5 +1,9 @@
-h2 {
+.container {
 
-    display:flex;
-    justify-content: end;
+    display: flex;
+}
+
+h2, p {
+
+    color: black;
 }
