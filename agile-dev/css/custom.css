@@ -1,8 +1,6 @@
 
 /*body */
-body{
-    /* background-color :blue lighten-3; */
-}
+
 
 
 h2 {
@@ -12,9 +10,7 @@ h2 {
 }
 
 /* =========================
-
 FEATURE SECTION
-
 ===========================*/
 
 .feature-content {
@@ -38,4 +34,12 @@ align-self: center;
     margin-bottom: 50px;
 }
 
-
+/* =========================
+WIN SECTION
+===========================*/
+.win-content{
+    justify-content: space-between;
+}
+.win-content__left img{
+    width: 250px;
+}
